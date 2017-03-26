@@ -4,12 +4,16 @@ function [root,flag_convergence,num_iteration] = false_position(coef_v)
 X_EPS = 0.001;
 Z_EPS = 0.000001;
 THRESHOLD = 0.5;
+MAX_ITERATION = 500000;
+
 n = length(coef_v);
 
 r_max_abs = sqrt(  sqr(coef_v(n-1)/coef_v(n) ) - 2*( coef_v(n-2)/coef_v(n) )  );
 
-x1 = - r_max_abs;
-x2 = r_max_abs;
+% x1 = - r_max_abs;
+% x2 = r_max_abs;
+x1 = 3;
+x2 = 5;
 
 num_iteration = 0;
 flag_convergence = true;
@@ -38,7 +42,13 @@ while ( (abs(abs_error)>X_EPS) )
     x2;
     
     
+    
     num_iteration=num_iteration+1;
+    
+    if(num_iteration==MAX_ITERATION)
+        flag_convergence = false;
+        break;
+    end
     
     
     abs_error = (x2-x1);
