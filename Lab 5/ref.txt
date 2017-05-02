@@ -1,0 +1,2 @@
+Simpson's method:
+http://www.intmath.com/applications-integration/hic-head-injury-criterion.php
