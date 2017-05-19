@@ -18,7 +18,7 @@ end
 
 function [yo] = fun(xi)
 
-yo = sqrt( sin(xi) );
+yo = (5*xi^2)^2.5;
 
 end
 

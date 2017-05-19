@@ -1,0 +1,15 @@
+//h=0.000001
+Threshold 0.03
+Percentage of correct case : 64.9466
+Threshold 0.06
+Percentage of correct case : 75.5112
+Threshold 0.09
+Percentage of correct case : 79.7987
+Threshold 0.12
+Percentage of correct case : 82.1435
+Threshold 0.15
+Percentage of correct case : 83.4758
+Threshold 0.18
+Percentage of correct case : 84.3585
+Threshold 0.21
+Percentage of correct case : 84.9362

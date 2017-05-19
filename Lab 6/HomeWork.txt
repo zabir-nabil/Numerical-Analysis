@@ -1,0 +1,9 @@
+ HW
+----
+
+Abstract, Introduction, Flow chart, Algorithm Result and Discussion, Conclusion, Reference
+
+
+a) Write down 1 algorithm after combining algorithm and 2 form paper.
+b) Plot actual data with with the estimated data
+c) Draw table 2 similar with the paper using trapezoidal, simpson's 1/3, 3/8 rule./rhombus integration.

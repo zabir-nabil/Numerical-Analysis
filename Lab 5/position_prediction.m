@@ -4,7 +4,11 @@
 
 plot(tm,ypos,'-.');
 
-title('dy/dt = -t*y/(sqrt(2-y^2))');
+title('dy/dt = -t*y/(sqrt(5-y^2))');
 
 axis([0 5 0 1.5]);
+
+xlabel('time');
+
+ylabel('position');
 
